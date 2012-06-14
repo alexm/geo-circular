@@ -25,9 +25,7 @@
 </head>
 <body>
     <div class="container">
-
-      <%= content %>
-
+<%= content %>
       <footer class="footer">
         <p><small>&copy; 2012 Grup Excursionista d'Oliana</small></p>
       </footer>
