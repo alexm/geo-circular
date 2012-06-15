@@ -22,9 +22,38 @@
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <!-- Cal que estigui al principi per poder usar el jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html">Circular del Pantà d'Oliana</a>
+          <div class="nav-collapse">
+            <ul class="nav pull-right">
+              <li id="menu-inici"><a href="index.html">Inici</a></li>
+<!--          <li id="menu-presentacio"><a href="presentacio.html">Presentació</a></li>-->
+              <li id="menu-recorregut"><a href="recorregut.html">Recorregut</a></li>
+              <li id="menu-perfil-i-controls"><a href="perfil-i-controls.html">Perfil i controls</a></li>
+              <li id="menu-reglament"><a href="reglament.html">Reglament</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
     <div class="container">
+      <script type="text/javascript">
+        $('li#menu-inici').addClass('active');
+      </script>
 
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit" style="background-color: #5caa96">
@@ -33,17 +62,21 @@
 
       </div>
 
-      <div class="row" id="calendari">
-        <div class="span3">
+      <div class="row">
+        <div id="calendari" class="span3">
           <h2>Calendari</h2>
-          <dl class="dl-horizontal">
-            <dt>15 juny</dt>
+          <dl class="dl">
+            <dt>15 de juny</dt>
             <dd>Inici d'inscripcions</dd>
-            <dt>8 - 9 de setembre</dt>
-            <dd>Circular</dd>
+            <dt>31 d'agost</dt>
+            <dd>Tancament d'inscripcions</dd>
+            <dt>8 de setembre (17:00)</dt>
+            <dd>Inici de la circular</dd>
+            <dt>9 de setembre (17:00)</dt>
+            <dd>Tancament de la circular</dd>
           </dl>
         </div>
-        <div class="span6">
+        <div id="galeria" class="span6">
           <h2>Galeria</h2>
           <div id="myCarousel" class="carousel slide">
             <!-- Carousel items -->
@@ -155,10 +188,17 @@
             <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
           </div>
         </div>
-        <div class="span3">
+
+        <script type="text/javascript">
+          $('.carousel').carousel()
+        </script>
+
+        <div id="logos" class="span3" style="text-align: center">
+          <p><img src="logo.jpg" alt="logo de la circular"></p>
           <h2>Organització</h2>
-            <p><a href="mailto:circular@grupexcursionistaoliana.org" title="Contacta l'organització"><img src="logo.jpg" alt="logo de la circular"></a>
+            <p><a href="mailto:circular@grupexcursionistaoliana.org" title="Contacta l'organització"><img src="geo.png" alt="logo del GEO"></a>
         </div>
+
       </div>
 
       <footer class="footer">
@@ -167,13 +207,5 @@
 
     </div> <!-- /container -->
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      $('.carousel').carousel()
-    </script>
 </body>
 </html>

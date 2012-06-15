@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>IV Circular del Pantà d'Oliana - Grup Excursionista d'Oliana</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+      .carousel-inner {
+        padding-left: auto;
+        padding-right: auto;
+      }
+    </style>
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Cal que estigui al principi per poder usar el jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html">Circular del Pantà d'Oliana</a>
+          <div class="nav-collapse">
+            <ul class="nav pull-right">
+              <li id="menu-inici"><a href="index.html">Inici</a></li>
+<!--          <li id="menu-presentacio"><a href="presentacio.html">Presentació</a></li>-->
+              <li id="menu-recorregut"><a href="recorregut.html">Recorregut</a></li>
+              <li id="menu-perfil-i-controls"><a href="perfil-i-controls.html">Perfil i controls</a></li>
+              <li id="menu-reglament"><a href="reglament.html">Reglament</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <script type="text/javascript">
+        $('li#menu-perfil-i-controls').addClass('active');
+      </script>
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit" style="background-color: #5caa96">
+        <h1 style="color: white; text-shadow: 0 1px 4px rgba(0,0,0,0.99);">Perlfils i controls</h1>
+        <h2 style="color: #142738; text-shadow: 0 1px 1px rgba(255,255,255,0.50);">IV Circular del Pantà d'Oliana &mdash; 8 i 9 de setembre</h2>
+
+      </div>
+
+      <div class="row">
+        <div id="tracks" class="span3">
+          <h2>Tracks de GPS</h2>
+          <ul>
+            <li><a href="track-cpo.gpx" title="Format GPX">GPX</a></li>
+            <li><a href="track-cpo.trk" title="Format TRK">TRK</a></li>
+            <li><a href="track-cpo.kmz" title="Format Google Earth">KMZ</a></li>
+          </ul>
+        </div>
+        <div id="perfil-i-controls" class="span6">
+          <h2>Perfil</h2>
+          <p>
+            La IV Circular Pantà d'Oliana consta d'un desnivell acumulat de 6200 metres a realitzar en 24 hores,
+            per la qual cosa <a href="http://feec.cat/sites/default/files/Fitxers/competicio/reglaments/punts_CCCR_2012.pdf" title="puntuació de la CCCR 2012">puntua en 31 punts</a>
+            a la <a href="http://feec.cat/competici%C3%B3/caminades-de-resist%C3%A8ncia#cccr" title="llista de caminades de resistència de la XV edició">XV Copa Catalana de Caminades de Resistència</a>.
+          </p>
+          <p><a href="perfil.jpg" title="perfil a mida completa"><img src="perfil.jpg" alt="perfil de la circular"></a></p>
+          <h2>Quadre de controls i horaris</h2>
+          <p>
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Control</th>
+                  <th>Localització</th>
+                  <th title="Distància acumulada en quilòmetres">Distància (Km)</th>
+                  <th span="2" title="Horari d'obertura i tancament del control">Horari</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sortida</td>
+                  <td>Oliana</td>
+                  <td style="text-align: right">0,0</td>
+                  <td style="text-align: center">--:--</td>
+                  <td style="text-align: center">17:00</td>
+                </tr>
+                <tr>
+                  <td>Control 1</td>
+                  <td>Serra-seca</td>
+                  <td style="text-align: right">10,0</td>
+                  <td style="text-align: center">18:--</td>
+                  <td style="text-align: center">20:00</td>
+                </tr>
+                <tr>
+                  <td>Control 2</td>
+                  <td>Alinyà &mdash; les Sorts</td>
+                  <td style="text-align: right">23,0</td>
+                  <td style="text-align: center">19:15</td>
+                  <td style="text-align: center">23:30</td>
+                </tr>
+                <tr>
+                  <td>Control 3</td>
+                  <td>Collada de cal Penya</td>
+                  <td style="text-align: right">29,5</td>
+                  <td style="text-align: center">20:15</td>
+                  <td style="text-align: center">02:00</td>
+                </tr>
+                <tr>
+                  <td>Control 4</td>
+                  <td>Fígols</td>
+                  <td style="text-align: right">38,1</td>
+                  <td style="text-align: center">21:00</td>
+                  <td style="text-align: center">03:30</td>
+                </tr>
+                <tr>
+                  <td>Control 5</td>
+                  <td>Coll de Nargó</td>
+                  <td style="text-align: right">45,5</td>
+                  <td style="text-align: center">22:15</td>
+                  <td style="text-align: center">06:00</td>
+                </tr>
+                <tr>
+                  <td>Control 6</td>
+                  <td>Font d'Isot</td>
+                  <td style="text-align: right">61,5</td>
+                  <td style="text-align: center">00:30</td>
+                  <td style="text-align: center">10:00</td>
+                </tr>
+                <tr>
+                  <td>Control 7</td>
+                  <td>Cortiuda</td>
+                  <td style="text-align: right">65,5</td>
+                  <td style="text-align: center">01:15</td>
+                  <td style="text-align: center">12:30</td>
+                </tr>
+                <tr>
+                  <td>Control 8</td>
+                  <td>Peramola</td>
+                  <td style="text-align: right">74,8</td>
+                  <td style="text-align: center">02:00</td>
+                  <td style="text-align: center">15:15</td>
+                </tr>
+                <tr>
+                  <td>Arribada</td>
+                  <td>Oliana</td>
+                  <td style="text-align: right">81,0</td>
+                  <td style="text-align: center">02:45</td>
+                  <td style="text-align: center">17:00</td>
+                </tr>
+              </tbody>
+            </table>
+          </p>
+        </div>
+        <div id="logos" class="span3" style="text-align: center">
+          <p><img src="logo.jpg" alt="logo de la circular"></p>
+          <h2>Organització</h2>
+            <p><a href="mailto:circular@grupexcursionistaoliana.org" title="Contacta l'organització"><img src="geo.png" alt="logo del GEO"></a>
+        </div>
+
+      </div>
+
+      <footer class="footer">
+        <p><small>&copy; 2012 Grup Excursionista d'Oliana</small></p>
+      </footer>
+
+    </div> <!-- /container -->
+
+</body>
+</html>
