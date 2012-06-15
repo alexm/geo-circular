@@ -5,7 +5,7 @@
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit" style="background-color: #5caa96">
         <h1 style="color: white; text-shadow: 0 1px 4px rgba(0,0,0,0.99);">Reglament</h1>
-        <h2 style="color: #142738; text-shadow: 0 1px 1px rgba(255,255,255,0.50);">IV Circular del Pantà d'Oliana &mdash; 8 i 9 de setembre</h2>
+<%= include 'subtitol' %>
       </div>
 
       <div class="row">
