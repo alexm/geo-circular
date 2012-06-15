@@ -43,7 +43,7 @@
 <!--          <li id="menu-presentacio"><a href="presentacio.html">Presentació</a></li>-->
 <!--          <li id="menu-recorregut"><a href="recorregut.html">Recorregut</a></li>-->
               <li id="menu-perfil-i-controls"><a href="perfil-i-controls.html">Perfil i controls</a></li>
-<!--          <li id="menu-reglament"><a href="reglament.html">Reglament</a></li>-->
+              <li id="menu-reglament"><a href="reglament.html">Reglament</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
