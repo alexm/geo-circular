@@ -7,7 +7,7 @@ my @pages = qw(
     index
     presentacio
     recorregut
-    perfils-i-controls
+    perfil-i-controls
     reglament
 );
 
