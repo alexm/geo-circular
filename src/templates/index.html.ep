@@ -6,8 +6,8 @@
 
       </div>
 
-      <div class="row" id="calendari">
-        <div class="span3">
+      <div class="row">
+        <div id="calendari" class="span3">
           <h2>Calendari</h2>
           <dl class="dl-horizontal">
             <dt>15 juny</dt>
@@ -16,7 +16,7 @@
             <dd>Circular</dd>
           </dl>
         </div>
-        <div class="span6">
+        <div id="galeria" class="span6">
           <h2>Galeria</h2>
           <div id="myCarousel" class="carousel slide">
             <!-- Carousel items -->
@@ -128,8 +128,9 @@
             <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
           </div>
         </div>
-        <div class="span3">
+        <div id="logos" class="span3" style="text-align: center">
+          <p><img src="logo.jpg" alt="logo de la circular"></p>
           <h2>Organització</h2>
-            <p><a href="mailto:circular@grupexcursionistaoliana.org" title="Contacta l'organització"><img src="logo.jpg" alt="logo de la circular"></a>
+            <p><a href="mailto:circular@grupexcursionistaoliana.org" title="Contacta l'organització"><img src="geo.png" alt="logo del GEO"></a>
         </div>
       </div>
