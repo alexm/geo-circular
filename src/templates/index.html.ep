@@ -13,10 +13,14 @@
         <div id="calendari" class="span3">
           <h2>Calendari</h2>
           <dl class="dl-horizontal">
-            <dt>15 juny</dt>
+            <dt>15 de juny</dt>
             <dd>Inici d'inscripcions</dd>
-            <dt>8 - 9 de setembre</dt>
-            <dd>Circular</dd>
+            <dt>31 d'agost</dt>
+            <dd>Tancament d'inscripcions</dd>
+            <dt>8 de setembre (17:00)</dt>
+            <dd>Inici de la circular</dd>
+            <dt>9 de setembre (17:00)</dt>
+            <dd>Tancament de la circular</dd>
           </dl>
         </div>
         <div id="galeria" class="span6">
