@@ -3,6 +3,16 @@ use Mojolicious::Lite;
 
 app->defaults( layout => 'default' );
 
-get '/' => sub { shift->render('index') };
+my @pages = qw(
+    index
+    presentacio
+    recorregut
+    perfils-i-controls
+    reglament
+);
+
+for my $page (@pages) {
+    get "/$page" => sub { shift->render($page) };
+}
 
 app->start;
