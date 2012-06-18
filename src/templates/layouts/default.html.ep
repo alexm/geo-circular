@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>IV Circular del Pantà d'Oliana - Grup Excursionista d'Oliana</title>
+    <title>IV Circular Pantà d'Oliana - Grup Excursionista d'Oliana</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico">
 
@@ -37,7 +37,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="index.html">Circular del Pantà d'Oliana</a>
+          <a class="brand" href="index.html">Circular Pantà d'Oliana</a>
           <div class="nav-collapse">
             <ul class="nav pull-right">
               <li id="menu-inici"><a href="index.html">Inici</a></li>
