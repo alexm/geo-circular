@@ -1,5 +1,6 @@
 PAGES = \
     index \
+    presentacio \
     recorregut \
     perfil-i-controls \
     reglament \
