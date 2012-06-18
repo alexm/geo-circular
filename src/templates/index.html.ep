@@ -5,8 +5,7 @@
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit" style="background-color: #5caa96">
         <h1 style="color: white; text-shadow: 0 1px 4px rgba(0,0,0,0.99);">IV Circular del Pantà d'Oliana</h1>
-        <h2 style="color: #142738; text-shadow: 0 1px 1px rgba(255,255,255,0.50);">Accepteu el repte del Grup Excursionista d'Oliana?</h2>
-
+        <h2 style="color: #142738; text-shadow: 0 1px 1px rgba(255,255,255,0.50);">8 i 9 de setembre de 2012 &mdash; Organitza el Grup Excursionista d'Oliana</h2>
       </div>
 
       <div class="row">
@@ -24,6 +23,18 @@
           </dl>
         </div>
         <div id="galeria" class="span6">
+          <div class="alert alert" style="text-align: center">
+            <h4 class="alert-heading">
+              81Km i 6200m de desnivell en menys de 24h
+            </h4>
+          </div>
+
+          <div class="alert alert-info" style="text-align: center">
+            <h4 class="alert-heading">
+              Puntuable amb 31 punts a la XV Copa Catalana de Caminades de Resistència
+            </h4>
+          </div>
+
           <h2>Galeria</h2>
           <div id="myCarousel" class="carousel slide">
             <!-- Carousel items -->
