@@ -1,0 +1,22 @@
+      <script type="text/javascript">
+        $('li#menu-inscripcions').addClass('active');
+      </script>
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit" style="background-color: #5caa96">
+        <h1 style="color: white; text-shadow: 0 1px 4px rgba(0,0,0,0.99);">Inscripcions</h1>
+<%= include 'subtitol' %>
+      </div>
+
+      <div class="row">
+        <div class="span9" style="text-align: justify">
+          <h2>Llistat d'inscripcions</h2>
+          <p>
+            La inscripció de la IV Circular Pantà Oliana es realitza des de la <a href="http://feec.cat/competici%C3%B3/inscripcions" title="inscripcions a la web de la FEEC">web de la FEEC</a>.
+            La data límit és el 31 d'agost i el número de places és de 350.
+          </p>
+          <p><em>Darrera actualització: 26 de juny.</em></p>
+          <iframe width='600' height='620' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0AmSOQMNqVc6AdGItUUtwQXlIQWVsV1ZRa19fQnBFWkE&single=true&gid=0&range=web&output=html'></iframe>
+        </div>
+<%= include 'logos' %>
+      </div>

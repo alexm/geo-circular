@@ -9,6 +9,7 @@ my @pages = qw(
     recorregut
     perfil-i-controls
     reglament
+    inscripcions
 );
 
 for my $page (@pages) {

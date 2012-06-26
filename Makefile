@@ -4,6 +4,7 @@ PAGES = \
     recorregut \
     perfil-i-controls \
     reglament \
+    inscripcions \
 
 update:
 	@for P in ${PAGES}; do \
