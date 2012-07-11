@@ -158,5 +158,5 @@
           $('.carousel').carousel()
         </script>
 
-<%= include 'logos' %>
+<%= include 'circular/logos' %>
       </div>

@@ -3,14 +3,8 @@ use Mojolicious::Lite;
 
 app->defaults( layout => 'default' );
 
-my @pages = qw(
-    index
-    presentacio
-    recorregut
-    perfil-i-controls
-    reglament
-    inscripcions
-);
+chomp( my @pages = do { open my $fd, '<', 'PAGES' or die; <$fd> } );
+print STDERR "Rendering... @pages\n";
 
 for my $page (@pages) {
     get "/$page" => sub { shift->render($page) };
