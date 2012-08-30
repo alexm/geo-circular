@@ -16,6 +16,8 @@
             <dd>Inici de les inscripcions</dd>
             <dt>2 de setembre (24:00)</dt>
             <dd>Tancament de les inscripcions</dd>
+            <dt>4 de setembre</dt>
+            <dd>Termini del pagament d'inscripcions</dd>
             <dt>8 de setembre (17:00)</dt>
             <dd>Inici de la circular</dd>
             <dt>9 de setembre (17:00)</dt>
@@ -28,6 +30,11 @@
             <h2 class="alert-heading">
               2 de setembre a les 24:00
             </h2>
+            <p>
+              Recordeu que cal fer el pagament per formalitzar la inscripció.
+              <br/>
+              El termini del pagament és el <strong>4 de setembre</strong>.
+            </p>
           </div>
 
           <div class="alert alert" style="text-align: center">
