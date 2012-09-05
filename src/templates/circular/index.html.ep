@@ -34,6 +34,12 @@
             </p>
           </div>
 
+          <div class="alert alert-error" style="text-align: center">
+            <h4 class="alert-heading">
+              Ja podeu comprovar quin és el vostre <a href="dorsals.pdf" title="llistat definitiu d'inscrits i dorsals">dorsal</a> per la circular.
+            </h4>
+          </div>
+
           <div class="alert alert" style="text-align: center">
             <h4 class="alert-heading">
               81Km i 6200m de desnivell en menys de 24h

@@ -12,11 +12,13 @@
         <div class="span9" style="text-align: justify">
           <h2>Formulari d'inscripció</h2>
           <p>
-            La inscripció de la IV Circular Pantà Oliana es realitza des de la <a href="http://www.feec.cat/competicions/competicio.php?idcomp=195179" title="inscripcions a la web de la FEEC">web de la FEEC</a>.
-            La data límit és el 2 de setembre a les 24:00 i el número de places és de 350.
+            El termini d'inscripció de la IV Circular Pantà Oliana s'ha exhaurit.
+            La data límit era el 2 de setembre a les 24:00.
           </p>
-          <h2>Llistat provisional d'inscrits</h2>
-          <iframe width="100%" height="610" src="http://www.feec.cat/inscrits_ajax_competicio.php?id_comp=195179"></iframe>
+          <h2>Llistat definitiu d'inscrits</h2>
+          <p>
+            Podeu consultar els <a href="dorsals.pdf" title="dorsals dels inscrits a la circular">dorsals</a> de la relació definitiva d'inscrits a la circular.
+          </p>
         </div>
 <%= include 'circular/logos' %>
       </div>
