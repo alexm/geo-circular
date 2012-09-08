@@ -23,6 +23,7 @@
             <dt>9 de setembre (17:00)</dt>
             <dd>Tancament de la circular</dd>
           </dl>
+<%= include 'circular/twitter' %>
         </div>
         <div id="galeria" class="span6">
           <div class="alert alert-error" style="text-align: center">

@@ -1,0 +1,36 @@
+<div>
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script> 
+    <script> 
+    new TWTR.Widget({
+      version: 2,
+      type: 'search',
+      search: 'circular pantà oliana OR circularoliana',
+      interval: 1500,
+      title: 'La circular a Twitter',
+      subject: '',
+      height: 300,
+      width: 'auto',
+      theme: {
+	shell: {
+	  background: '#121212',
+	  color: '#ffffff'
+	},
+	tweets: {
+	  background: '#ffffff',
+	  color: '#121212',
+	  links: '#f27f23'
+	}
+      },
+      features: {
+	scrollbar: true,
+	loop: true,
+	live: true,
+	hashtags: true,
+	timestamp: true,
+	avatars: true,
+	toptweets: true,
+	behavior: 'default'
+      }
+    }).render().start();
+    </script> 
+</div>
