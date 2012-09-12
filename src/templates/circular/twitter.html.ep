@@ -1,6 +1,6 @@
 <div>
-    <script src="http://widgets.twimg.com/j/2/widget.js"></script> 
-    <script> 
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
     new TWTR.Widget({
       version: 2,
       type: 'search',
@@ -32,5 +32,5 @@
 	behavior: 'default'
       }
     }).render().start();
-    </script> 
+    </script>
 </div>

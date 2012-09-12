@@ -46,6 +46,7 @@
               <li id="menu-perfil-i-controls"><a href="perfil-i-controls.html">Perfil i controls</a></li>
               <li id="menu-reglament"><a href="reglament.html">Reglament</a></li>
               <li id="menu-inscripcions"><a href="inscripcions.html">Inscripcions</a></li>
+              <li id="menu-resultats"><a href="resultats.html">Resultats</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>

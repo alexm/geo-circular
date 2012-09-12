@@ -46,6 +46,7 @@
               <li id="menu-perfil-i-controls"><a href="perfil-i-controls.html">Perfil i controls</a></li>
               <li id="menu-reglament"><a href="reglament.html">Reglament</a></li>
               <li id="menu-inscripcions"><a href="inscripcions.html">Inscripcions</a></li>
+              <li id="menu-resultats"><a href="resultats.html">Resultats</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -65,14 +66,59 @@
       </div>
 
       <div class="row">
-        <div id="tracks" class="span3">
-          <h2>Tracks de GPS</h2>
-          <ul>
-            <li><a href="fitxers/track-cpo.gpx" title="Format GPX">GPX</a></li>
-            <li><a href="fitxers/track-cpo.trk" title="Format TRK">TRK</a></li>
-            <li><a href="fitxers/track-cpo.kmz" title="Format Google Earth">KMZ</a></li>
-          </ul>
+        <div id="calendari" class="span3">
+          <h2>Calendari</h2>
+          <dl class="dl">
+            <dt>20 de juny (12:00)</dt>
+            <dd>Inici de les inscripcions</dd>
+            <dt>2 de setembre (24:00)</dt>
+            <dd>Tancament de les inscripcions</dd>
+            <dt>4 de setembre</dt>
+            <dd>Termini del pagament d'inscripcions</dd>
+            <dt>8 de setembre (17:00)</dt>
+            <dd>Inici de la circular</dd>
+            <dt>9 de setembre (17:00)</dt>
+            <dd>Tancament de la circular</dd>
+          </dl>
+<div>
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+    new TWTR.Widget({
+      version: 2,
+      type: 'search',
+      search: 'circular pantà oliana OR circularoliana OR circularpantaoliana OR cicularpantaoliana',
+      interval: 1500,
+      title: 'La circular a Twitter',
+      subject: '',
+      height: 300,
+      width: 'auto',
+      theme: {
+	shell: {
+	  background: '#5caa96',
+	  color: '#ffffff'
+	},
+	tweets: {
+	  background: '#ffffff',
+	  color: '#121212',
+	  links: '#f27f23'
+	}
+      },
+      features: {
+	scrollbar: true,
+	loop: true,
+	live: true,
+	hashtags: true,
+	timestamp: true,
+	avatars: true,
+	toptweets: false,
+	behavior: 'default'
+      }
+    }).render().start();
+    </script>
+</div>
+
         </div>
+
         <div id="perfil-i-controls" class="span6">
           <h2>Perfil</h2>
           <p>
@@ -81,6 +127,12 @@
             a la <a href="http://feec.cat/competici%C3%B3/caminades-de-resist%C3%A8ncia#cccr" title="llista de caminades de resistència de la XV edició">XV Copa Catalana de Caminades de Resistència</a>.
           </p>
           <p><a href="imatges/perfil.jpg" title="perfil a mida completa"><img src="imatges/perfil.jpg" alt="perfil de la circular"></a></p>
+          <h2>Tracks de GPS</h2>
+          <ul>
+            <li><a href="fitxers/track-cpo.gpx" title="Format GPX">GPX</a></li>
+            <li><a href="fitxers/track-cpo.trk" title="Format TRK">TRK</a></li>
+            <li><a href="fitxers/track-cpo.kmz" title="Format Google Earth">KMZ</a></li>
+          </ul>
           <h2>Quadre de controls i horaris</h2>
           <p>
             <table class="table table-bordered table-striped">

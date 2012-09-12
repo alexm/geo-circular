@@ -9,7 +9,8 @@
       </div>
 
       <div class="row">
-        <div class="span9" style="text-align: justify">
+<%= include 'circular/calendari' %>
+        <div class="span6" style="text-align: justify">
           <p>La caminada, amb sortida i arribada a Oliana, comença el dissabte 8 de setembre de 2012 a les 17:00 hores des de la Plaça de la Reguereta d'Oliana (tocant a la C14) i a tan sols 450 metres sobre el nivell del mar.</p>
 
           <p style="text-align: center"><img src="fotos/oliana.jpg" alt="Oliana, punts de sortida i arribada" title="Oliana, punts de sortida i arribada"></p>

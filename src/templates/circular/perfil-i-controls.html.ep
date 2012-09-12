@@ -9,14 +9,7 @@
       </div>
 
       <div class="row">
-        <div id="tracks" class="span3">
-          <h2>Tracks de GPS</h2>
-          <ul>
-            <li><a href="fitxers/track-cpo.gpx" title="Format GPX">GPX</a></li>
-            <li><a href="fitxers/track-cpo.trk" title="Format TRK">TRK</a></li>
-            <li><a href="fitxers/track-cpo.kmz" title="Format Google Earth">KMZ</a></li>
-          </ul>
-        </div>
+<%= include 'circular/calendari' %>
         <div id="perfil-i-controls" class="span6">
           <h2>Perfil</h2>
           <p>
@@ -25,6 +18,12 @@
             a la <a href="http://feec.cat/competici%C3%B3/caminades-de-resist%C3%A8ncia#cccr" title="llista de caminades de resistència de la XV edició">XV Copa Catalana de Caminades de Resistència</a>.
           </p>
           <p><a href="imatges/perfil.jpg" title="perfil a mida completa"><img src="imatges/perfil.jpg" alt="perfil de la circular"></a></p>
+          <h2>Tracks de GPS</h2>
+          <ul>
+            <li><a href="fitxers/track-cpo.gpx" title="Format GPX">GPX</a></li>
+            <li><a href="fitxers/track-cpo.trk" title="Format TRK">TRK</a></li>
+            <li><a href="fitxers/track-cpo.kmz" title="Format Google Earth">KMZ</a></li>
+          </ul>
           <h2>Quadre de controls i horaris</h2>
           <p>
             <table class="table table-bordered table-striped">

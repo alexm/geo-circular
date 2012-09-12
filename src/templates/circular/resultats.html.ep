@@ -1,0 +1,45 @@
+      <script type="text/javascript">
+        $('li#menu-resultats').addClass('active');
+      </script>
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit" style="background-color: #5caa96">
+        <h1 style="color: white; text-shadow: 0 1px 4px rgba(0,0,0,0.99);">Resultats</h1>
+<%= include 'circular/subtitol' %>
+      </div>
+
+      <div class="row">
+<%= include 'circular/calendari' %>
+        <div id="resultats" class="span6">
+          <h2>Resultats i classificació</h2>
+          <p>
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="text-align: right">Posició</th>
+                  <th style="text-align: right">Dorsal</th>
+                  <th style="text-align: center">Arribada</th>
+                  <th>Cognom</th>
+                  <th>Nom</th>
+                </tr>
+              </thead>
+              <tbody>
+
+<% my $posicio = 0; %>
+<% for my $resultat (@$args) { %>
+
+                <tr>
+                  <td style="text-align: right"><%= ++$posicio %></td>
+                  <td style="text-align: right"><%= $resultat->[0] %></td>
+                  <td style="text-align: center"><%= sprintf( "%02d", $resultat->[1] ) %>:<%= sprintf( "%02d", $resultat->[2] ) %></td>
+                  <td><%= $resultat->[3] %></td>
+                  <td><%= $resultat->[4] %></td>
+                </tr>
+
+<% } %>
+              </tbody>
+            </table>
+          </p>
+        </div>
+<%= include 'circular/logos' %>
+      </div>

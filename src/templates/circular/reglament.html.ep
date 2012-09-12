@@ -9,7 +9,8 @@
       </div>
 
       <div class="row">
-        <div class="span9" style="text-align: justify">
+<%= include 'circular/calendari' %>
+        <div class="span6" style="text-align: justify">
           <p>
             Les presents Normes de Participació contingudes en aquest Reglament, són el conjunt de pautes que obligatòriament qualsevol participant de la IV Circular Pantà d’Oliana ha de complir. El fet d’inscriure’s a la prova n’implica la seva acceptació. Les presents normes es dicten en virtut de la potestat que atorga el Reglament de la Copa Catalana de Caminades de Resistència de la Federació d’Entitats Excursionistes de Catalunya, aprovat en data 23 de febrer de 2005, al no ser-li aplicable el Decret 56/2003, de 4 de febrer, pel qual es regulen les activitats físicoesportives al medi natural.
           </p>

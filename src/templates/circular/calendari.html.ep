@@ -1,0 +1,16 @@
+        <div id="calendari" class="span3">
+          <h2>Calendari</h2>
+          <dl class="dl">
+            <dt>20 de juny (12:00)</dt>
+            <dd>Inici de les inscripcions</dd>
+            <dt>2 de setembre (24:00)</dt>
+            <dd>Tancament de les inscripcions</dd>
+            <dt>4 de setembre</dt>
+            <dd>Termini del pagament d'inscripcions</dd>
+            <dt>8 de setembre (17:00)</dt>
+            <dd>Inici de la circular</dd>
+            <dt>9 de setembre (17:00)</dt>
+            <dd>Tancament de la circular</dd>
+          </dl>
+<%= include 'circular/twitter' %>
+        </div>

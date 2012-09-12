@@ -9,7 +9,8 @@
       </div>
 
       <div class="row">
-        <div class="span9" style="text-align: justify">
+<%= include 'circular/calendari' %>
+        <div class="span6" style="text-align: justify">
           <h2>Formulari d'inscripció</h2>
           <p>
             El termini d'inscripció de la IV Circular Pantà Oliana s'ha exhaurit.

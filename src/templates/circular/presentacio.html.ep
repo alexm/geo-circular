@@ -9,7 +9,8 @@
       </div>
 
       <div class="row">
-        <div class="span9" style="text-align: justify">
+<%= include 'circular/calendari' %>
+        <div class="span6" style="text-align: justify">
           <p>La Circular Pantà d'Oliana és una prova creada l'any 2009 pensada ja de bon inici per a portar la Copa Catalana de Caminades de Resistència al PrePirineu de l'Alt Urgell i omplir d'aquesta manera el buit present de proves que es realitzin al Prepirineu lleidatà.</p>
           <p>La caminada, amb sortida i arribada a Oliana i organitzada pel Grup Excursionista Oliana, té un traçat de 81Km de recorregut i 6200m de desnivell acumulat i forma part enguany de la XV Copa Catalana, puntuable amb 31 punts.</p>
           <p><strong>La IV edició de la Circular Pantà d'Oliana tindrà lloc els dies 8 i 9 de setembre de 2012 amb sortida a Oliana a les 17:00 hores de dissabte 8.</strong></p>
