@@ -12,7 +12,7 @@
       width: 'auto',
       theme: {
 	shell: {
-	  background: '#121212',
+	  background: '#5caa96',
 	  color: '#ffffff'
 	},
 	tweets: {
