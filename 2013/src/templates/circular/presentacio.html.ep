@@ -1,0 +1,20 @@
+      <script type="text/javascript">
+        $('li#menu-presentacio').addClass('active');
+      </script>
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit" style="background-color: #5caa96">
+        <h1 style="color: white; text-shadow: 0 1px 4px rgba(0,0,0,0.99);">Presentació</h1>
+<%= include 'circular/subtitol' %>
+      </div>
+
+      <div class="row">
+<%= include 'circular/calendari' %>
+        <div class="span6" style="text-align: justify">
+          <p>La Circular Pantà d'Oliana és una prova creada l'any 2009 pensada ja de bon inici per a portar la Copa Catalana de Caminades de Resistència al PrePirineu de l'Alt Urgell i omplir d'aquesta manera el buit present de proves que es realitzin al Prepirineu lleidatà.</p>
+          <p>La caminada, amb sortida i arribada a Oliana i organitzada pel Grup Excursionista Oliana, té un traçat de 81Km de recorregut i 6200m de desnivell acumulat i tradicionalment és puntuable per la Copa Catalana.</p>
+          <p>El nom de Circular Pantà d'Oliana no significa que sigui una caminada que rodeja els límits de l'embassament, sinó que el recorregut transcorre pels abruptes massissos i serres que geològicament li donen forma. És tant així, que l'embassament només es deixa veure en certs punts del recorregut, ja sigui en distàncies properes o llunyanes.</p>
+          <p>El recorregut circular va alternant el pas per massissos i serres amb diferents poblacions de l'Alt Urgell sud: muntanyes com Serra-seca, la Serra d'Aubenç, Roca del Corb en són alguns exemples. Sortint i arribant a Oliana, es passa també pels nuclis urbans d'Alinyà, Romanins, Fígols, Organyà, Coll de Nargó, les Masies, Peramola i Tragó.</p>
+        </div>
+<%= include 'circular/logos' %>
+      </div>

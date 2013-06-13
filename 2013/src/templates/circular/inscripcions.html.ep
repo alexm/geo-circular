@@ -1,0 +1,20 @@
+      <script type="text/javascript">
+        $('li#menu-inscripcions').addClass('active');
+      </script>
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit" style="background-color: #5caa96">
+        <h1 style="color: white; text-shadow: 0 1px 4px rgba(0,0,0,0.99);">Inscripcions</h1>
+<%= include 'circular/subtitol' %>
+      </div>
+
+      <div class="row">
+<%= include 'circular/calendari' %>
+        <div class="span6" style="text-align: justify">
+          <h2>Formulari d'inscripció</h2>
+          <p>
+            La inscripció s'obrirà a la <a href="http://www.feec.cat/competicions/" title="competicions a la web de la FEEC">web de la FEEC</a>.
+          </p>
+        </div>
+<%= include 'circular/logos' %>
+      </div>

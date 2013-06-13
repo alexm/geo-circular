@@ -1,0 +1,137 @@
+      <script type="text/javascript">
+        $('li#menu-inici').addClass('active');
+      </script>
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit" style="background-color: #5caa96">
+        <h1 style="color: white; text-shadow: 0 1px 4px rgba(0,0,0,0.99);">V Circular Pantà d'Oliana</h1>
+        <h2 style="color: #142738; text-shadow: 0 1px 1px rgba(255,255,255,0.50);">7 i 8 de setembre de 2013 &mdash; Organitza el Grup Excursionista d'Oliana</h2>
+      </div>
+
+      <div class="row">
+<%= include 'circular/calendari' %>
+        <div id="galeria" class="span6">
+          <div class="alert alert" style="text-align: center">
+            <h4 class="alert-heading">
+              81Km i 6200m de desnivell en menys de 24h
+            </h4>
+          </div>
+
+          <h2>Galeria</h2>
+          <div id="myCarousel" class="carousel slide">
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+              <div class="active item">
+                <a href="https://secure.flickr.com/photos/dawnmusik/4965231520/in/set-72157624894463254" title="Oliana (flickr)"><img src="https://farm5.staticflickr.com/4126/4965231520_2177245d33_z_d.jpg" alt=""></a>
+                <div class="carousel-caption">
+                  <h4>Sortida de la Reguereta</h4>
+                  <p>
+                    Preparats, llestos, ja!
+                    <span class="pull-right">
+                      <small>
+                      <a href="https://secure.flickr.com/photos/dawnmusik/" title="dawnmusik (flickr)">&copy;</a>
+                      </small>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <a href="https://secure.flickr.com/photos/borkurdotnet/4964783594/in/set-72157624768897245" title="Mountains (flickr)"><img src="https://farm5.staticflickr.com/4103/4964783594_4c6421d924_z_d.jpg" alt=""></a>
+                <div class="carousel-caption">
+                  <h4>Les muntanyes</h4>
+                  <p>
+                    S'acosten poc a poc però encara semblen lluny.
+                    <span class="pull-right">
+                      <small>
+                      <a href="https://secure.flickr.com/photos/borkurdotnet/" title="borkur.net (flickr)">cc-by</a>
+                      </small>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <a href="https://secure.flickr.com/photos/borkurdotnet/4964791874/in/set-72157624768897245" title="Misty mountains (flickr)"><img src="https://farm5.staticflickr.com/4089/4964791874_c66eccdc54_z_d.jpg" alt=""></a>
+                <div class="carousel-caption">
+                  <h4>La calitja</h4>
+                  <p>
+                    Per sobre les muntanyes que hem deixat enrere.
+                    <span class="pull-right">
+                      <small>
+                      <a href="https://secure.flickr.com/photos/borkurdotnet/" title="borkur.net (flickr)">cc-by</a>
+                      </small>
+                    </span>
+                  </p>
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <a href="https://secure.flickr.com/photos/dawnmusik/4965248784/in/set-72157624894463254/" title="Control 1 - Serra Seca (flickr)"><img src="https://farm5.staticflickr.com/4111/4965248784_93d95fa4d3_z_d.jpg" alt=""></a>
+                <div class="carousel-caption">
+                  <h4>Avituallament a Serraseca</h4>
+                  <p>
+                    El primer després de pujar sense parar des d'Oliana.
+                    <span class="pull-right">
+                      <small>
+                      <a href="https://secure.flickr.com/photos/dawnmusik/" title="dawnmusik (flickr)">&copy;</a>
+                      </small>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <a href="https://secure.flickr.com/photos/dawnmusik/4965285932/in/set-72157624894463254/" title="Serra Seca - Alinyà (flickr)"><img src="https://farm5.staticflickr.com/4130/4965285932_db276aae3e_z_d.jpg" alt=""></a>
+                <div class="carousel-caption">
+                  <h4>El sol s'amaga</h4>
+                  <p>
+                    Prepareu els lots i vigileu on poseu els peus a partir d'ara.
+                    <span class="pull-right">
+                      <small>
+                      <a href="https://secure.flickr.com/photos/dawnmusik/" title="dawnmusik (flickr)">&copy;</a>
+                      </small>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <a href="https://secure.flickr.com/photos/borkurdotnet/4964802420/in/set-72157624768897245" title="Sunset (flickr)"><img src="https://farm5.staticflickr.com/4126/4964802420_9724ec7769_z_d.jpg" alt=""></a>
+                <div class="carousel-caption">
+                  <h4>Bona nit</h4>
+                  <p>
+                    Però no pareu de caminar.
+                    <span class="pull-right">
+                      <small>
+                      <a href="https://secure.flickr.com/photos/borkurdotnet/" title="borkur.net (flickr)">cc-by</a>
+                      </small>
+                    </span>
+                  </p>
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <a href="https://secure.flickr.com/photos/borkurdotnet/4964209163/in/set-72157624768897245" title="In the Catalan heartland (flickr)"><img src="https://farm5.staticflickr.com/4113/4964209163_5b0777d9d3_z_d.jpg" alt=""></a>
+                <div class="carousel-caption">
+                  <h4>Bon dia</h4>
+                  <p>
+                    Els primers raigs de sol escalfen el matí.
+                    <span class="pull-right">
+                      <small>
+                      <a href="https://secure.flickr.com/photos/borkurdotnet/" title="borkur.net (flickr)">cc-by</a>
+                      </small>
+                    </span>
+                  </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Carousel nav -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+          </div>
+        </div>
+
+        <script type="text/javascript">
+          $('.carousel').carousel()
+        </script>
+
+<%= include 'circular/logos' %>
+      </div>

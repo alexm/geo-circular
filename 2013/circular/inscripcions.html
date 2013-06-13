@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>V Circular Pantà d'Oliana - Grup Excursionista d'Oliana</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imatges/favicon.ico">
+
+    <!-- Le styles -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+      .carousel-inner {
+        padding-left: auto;
+        padding-right: auto;
+      }
+    </style>
+    <link href="/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Cal que estigui al principi per poder usar el jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index">Circular Pantà d'Oliana</a>
+          <div class="nav-collapse">
+            <ul class="nav pull-right">
+              <li id="menu-inici"><a href="index">Inici</a></li>
+              <li id="menu-presentacio"><a href="presentacio">Presentació</a></li>
+              <li id="menu-recorregut"><a href="recorregut">Recorregut</a></li>
+<!--          <li id="menu-perfil-i-controls"><a href="perfil-i-controls">Perfil i controls</a></li>-->
+<!--          <li id="menu-reglament"><a href="reglament">Reglament</a></li>-->
+              <li id="menu-inscripcions"><a href="inscripcions">Inscripcions</a></li>
+<!--          <li id="menu-resultats"><a href="resultats">Resultats</a></li>-->
+              <li class="dropdown" id="menu-edicions">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#menu-description">
+                  Edicions
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                  <li><a href="2012/">2012</a></li>
+<!--
+                  <li class="disabled"><a href="#">2011</a></li>
+                  <li class="disabled"><a href="#">2010</a></li>
+                  <li class="disabled"><a href="#">2009</a></li>
+-->
+                </ul>
+	      </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <script type="text/javascript">
+        $('li#menu-inscripcions').addClass('active');
+      </script>
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit" style="background-color: #5caa96">
+        <h1 style="color: white; text-shadow: 0 1px 4px rgba(0,0,0,0.99);">Inscripcions</h1>
+        <h2 style="color: #142738; text-shadow: 0 1px 1px rgba(255,255,255,0.50);">V Circular Pantà d'Oliana &mdash; 7 i 8 de setembre de 2013</h2>
+
+      </div>
+
+      <div class="row">
+        <div id="calendari" class="span3">
+          <h2>Calendari <small>provisional</small></h2>
+          <dl class="dl">
+            <dt>7 de setembre (17:00)</dt>
+            <dd>Inici de la circular</dd>
+            <dt>8 de setembre (17:00)</dt>
+            <dd>Tancament de la circular</dd>
+          </dl>
+<div>
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+    new TWTR.Widget({
+      version: 2,
+      type: 'search',
+      search: 'circular pantà oliana OR circularoliana OR circularpantaoliana OR cicularpantaoliana',
+      interval: 1500,
+      title: 'La circular a Twitter',
+      subject: '',
+      height: 300,
+      width: 'auto',
+      theme: {
+	shell: {
+	  background: '#5caa96',
+	  color: '#ffffff'
+	},
+	tweets: {
+	  background: '#ffffff',
+	  color: '#121212',
+	  links: '#f27f23'
+	}
+      },
+      features: {
+	scrollbar: true,
+	loop: true,
+	live: true,
+	hashtags: true,
+	timestamp: true,
+	avatars: true,
+	toptweets: false,
+	behavior: 'default'
+      }
+    }).render().start();
+    </script>
+</div>
+
+        </div>
+
+        <div class="span6" style="text-align: justify">
+          <h2>Formulari d'inscripció</h2>
+          <p>
+            La inscripció s'obrirà a la <a href="http://www.feec.cat/competicions/" title="competicions a la web de la FEEC">web de la FEEC</a>.
+          </p>
+        </div>
+        <div id="logos" class="span3" style="text-align: center">
+          <p><img src="imatges/logo.jpg" alt="logo de la circular"></p>
+          <h2>Organització</h2>
+            <p><a href="mailto:circular@grupexcursionistaoliana.org" title="Contacta l'organització"><img src="imatges/geo.png" alt="logo del GEO"></a></p>
+            <p>Grup Excursionista d'Oliana</p>
+        </div>
+
+      </div>
+
+      <footer class="footer">
+        <p><small>&copy; 2012-2013 Grup Excursionista d'Oliana</small></p>
+      </footer>
+
+    </div> <!-- /container -->
+
+</body>
+</html>

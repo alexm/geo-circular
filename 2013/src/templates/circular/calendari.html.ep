@@ -1,0 +1,10 @@
+        <div id="calendari" class="span3">
+          <h2>Calendari <small>provisional</small></h2>
+          <dl class="dl">
+            <dt>7 de setembre (17:00)</dt>
+            <dd>Inici de la circular</dd>
+            <dt>8 de setembre (17:00)</dt>
+            <dd>Tancament de la circular</dd>
+          </dl>
+<%= include 'circular/twitter' %>
+        </div>

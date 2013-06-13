@@ -1,0 +1,15 @@
+      <script type="text/javascript">
+        $('li#menu-reglament').addClass('active');
+      </script>
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit" style="background-color: #5caa96">
+        <h1 style="color: white; text-shadow: 0 1px 4px rgba(0,0,0,0.99);">Reglament</h1>
+<%= include 'circular/subtitol' %>
+      </div>
+
+      <div class="row">
+<%= include 'circular/calendari' %>
+<%= include 'circular/no-disponible' %>
+<%= include 'circular/logos' %>
+      </div>
