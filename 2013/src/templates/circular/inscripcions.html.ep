@@ -13,7 +13,7 @@
         <div class="span6" style="text-align: justify">
           <h2>Formulari d'inscripció</h2>
           <p>
-            La inscripció s'obrirà a la <a href="http://www.feec.cat/competicions/" title="competicions a la web de la FEEC">web de la FEEC</a>.
+            La inscripció s'obrirà a la <a href="http://www.feec.cat/competicions/" title="competicions a la web de la FEEC">web de la FEEC</a> a partir del 18 de juny.
           </p>
         </div>
 <%= include 'circular/logos' %>
