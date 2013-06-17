@@ -11,10 +11,43 @@
       <div class="row">
 <%= include 'circular/calendari' %>
         <div class="span6" style="text-align: justify">
-          <h2>Formulari d'inscripció</h2>
+          <div class="alert alert-error" style="text-align: center">
+            <h4 class="alert-heading">
+              A l'espera de poder realitzar les inscripcions a través del nou WEB de la FEEC (previst per mitjan de juliol), les obrim amb el procediment següent.
+            </h4>
+          </div>
+          <h2>Per fer la inscripció</h2>
           <p>
-            La inscripció s'obrirà a la <a href="http://www.feec.cat/competicions/" title="competicions a la web de la FEEC">web de la FEEC</a> a partir del 18 de juny.
+            Envieu un correu electrònic a l'adreça <a href="mailto:circular@grupexcursionistaoliana.org" title="correu de la circular">circular@grupexcursionistaoliana.org</a> amb les següents dades:
+            <ul>
+            <li>Nom i cognoms</li>
+            <li>DNI o passaport</li>
+            <li>Data de naixement</li>
+            <li>Federat o no</li>
+            <li>Entitat (pels federats)</li>
+            <li>Talla samarreta (S-M-L-XL/XXL)</li>
+            <li>Correu electrònic</li>
+            </ul>
           </p>
+          <h2>Terminis</h2>
+          <p>
+            Del 18 de juny de 2013 al 31 d'agost de 2013 o en arribar a les 350 inscripcions.
+          </p>
+          <h2>Pagament</h2>
+          <p>
+            Feu el pagament durant 5 dies naturals després de la inscripció al número de compte <strong>2100-0671-39-0200079547</strong> i indiqueu el Grup Excursionista d'Oliana com a beneficiari.
+            <div class="alert alert" style="text-align: center">
+              <h4 class="alert-heading">
+                En realitzar l'ingrés poseu el nom de la persona que s'inscriu.
+              </h4>
+            </div>
+          </p>
+          <h2>Quotes</h2>
+          <ul>
+          <li><strong>26 €</strong> &ndash; Federats amb llicència de la FEEC d’enguany i entitats adherides a la UIAA</li>
+          <li><strong>30 €</strong> &ndash; No federats (inclou assegurança vàlida durant l’activitat)</li>
+          <li><strong>20 €</strong> &ndash; Socis Grup Excursionista d'Oliana amb llicència federativa</li>
+          </ul>
         </div>
 <%= include 'circular/logos' %>
       </div>
