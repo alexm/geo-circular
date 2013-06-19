@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use Modern::Perl 2012;
+use Modern::Perl;
 
 use Mojolicious::Lite;
 use Text::CSV;
