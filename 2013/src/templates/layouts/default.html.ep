@@ -43,8 +43,8 @@
               <li id="menu-inici"><a href="index">Inici</a></li>
               <li id="menu-presentacio"><a href="presentacio">Presentació</a></li>
               <li id="menu-recorregut"><a href="recorregut">Recorregut</a></li>
-<!--          <li id="menu-perfil-i-controls"><a href="perfil-i-controls">Perfil i controls</a></li>-->
-<!--          <li id="menu-reglament"><a href="reglament">Reglament</a></li>-->
+              <li id="menu-perfil-i-controls"><a href="perfil-i-controls">Perfil i controls</a></li>
+              <li id="menu-reglament"><a href="reglament">Reglament</a></li>
               <li id="menu-inscripcions"><a href="inscripcions">Inscripcions</a></li>
 <!--          <li id="menu-resultats"><a href="resultats">Resultats</a></li>-->
               <li class="dropdown" id="menu-edicions">

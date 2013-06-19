@@ -10,6 +10,105 @@
 
       <div class="row">
 <%= include 'circular/calendari' %>
-<%= include 'circular/no-disponible' %>
+        <div id="perfil-i-controls" class="span6">
+          <h2>Perfil</h2>
+          <p>
+            La V Circular Pantà d'Oliana consta d'un desnivell acumulat de 6200 metres a realitzar en 24 hores,
+            per la qual cosa <a href="http://www.feec.cat/sites/default/files/Fitxers/competicio/reglaments/puntuacio_CCCR_2013.pdf" title="puntuació de la CCCR 2013">puntua en 31 punts</a>
+            a la <a href="http://feec.cat/competici%C3%B3/caminades-de-resist%C3%A8ncia#cccr" title="llista de caminades de resistència de la XVI edició">XVI Copa Catalana de Caminades de Resistència</a>.
+          </p>
+          <p><a href="imatges/perfil.jpg" title="perfil a mida completa"><img src="imatges/perfil.jpg" alt="perfil de la circular"></a></p>
+          <h2>Tracks de GPS</h2>
+          <ul>
+            <li><a href="fitxers/track-cpo.gpx" title="Format GPX">GPX</a></li>
+            <li><a href="fitxers/track-cpo.trk" title="Format TRK">TRK</a></li>
+            <li><a href="fitxers/track-cpo.kmz" title="Format Google Earth">KMZ</a></li>
+          </ul>
+          <h2>Quadre de controls i horaris</h2>
+          <p>
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Control</th>
+                  <th>Localització</th>
+                  <th title="Distància acumulada en quilòmetres">Distància (Km)</th>
+                  <th span="2" title="Horari d'obertura i tancament del control">Horari</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sortida</td>
+                  <td>Oliana</td>
+                  <td style="text-align: right">0,0</td>
+                  <td style="text-align: center">--:--</td>
+                  <td style="text-align: center">17:00</td>
+                </tr>
+                <tr>
+                  <td>Control 1</td>
+                  <td>Serra-seca</td>
+                  <td style="text-align: right">10,0</td>
+                  <td style="text-align: center">18:00</td>
+                  <td style="text-align: center">20:00</td>
+                </tr>
+                <tr>
+                  <td>Control 2</td>
+                  <td>Alinyà &mdash; les Sorts</td>
+                  <td style="text-align: right">23,0</td>
+                  <td style="text-align: center">19:15</td>
+                  <td style="text-align: center">23:30</td>
+                </tr>
+                <tr>
+                  <td>Control 3</td>
+                  <td>Collada de cal Penya</td>
+                  <td style="text-align: right">29,5</td>
+                  <td style="text-align: center">20:15</td>
+                  <td style="text-align: center">02:00</td>
+                </tr>
+                <tr>
+                  <td>Control 4</td>
+                  <td>Fígols</td>
+                  <td style="text-align: right">38,1</td>
+                  <td style="text-align: center">21:00</td>
+                  <td style="text-align: center">03:30</td>
+                </tr>
+                <tr>
+                  <td>Control 5</td>
+                  <td>Coll de Nargó</td>
+                  <td style="text-align: right">45,5</td>
+                  <td style="text-align: center">22:15</td>
+                  <td style="text-align: center">06:00</td>
+                </tr>
+                <tr>
+                  <td>Control 6</td>
+                  <td>Font d'Isot</td>
+                  <td style="text-align: right">61,5</td>
+                  <td style="text-align: center">00:30</td>
+                  <td style="text-align: center">10:00</td>
+                </tr>
+                <tr>
+                  <td>Control 7</td>
+                  <td>Cortiuda</td>
+                  <td style="text-align: right">65,5</td>
+                  <td style="text-align: center">01:15</td>
+                  <td style="text-align: center">12:30</td>
+                </tr>
+                <tr>
+                  <td>Control 8</td>
+                  <td>Peramola</td>
+                  <td style="text-align: right">74,8</td>
+                  <td style="text-align: center">02:00</td>
+                  <td style="text-align: center">15:15</td>
+                </tr>
+                <tr>
+                  <td>Arribada</td>
+                  <td>Oliana</td>
+                  <td style="text-align: right">81,0</td>
+                  <td style="text-align: center">02:45</td>
+                  <td style="text-align: center">17:00</td>
+                </tr>
+              </tbody>
+            </table>
+          </p>
+        </div>
 <%= include 'circular/logos' %>
       </div>
