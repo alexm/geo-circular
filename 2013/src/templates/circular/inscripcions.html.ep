@@ -28,6 +28,20 @@
             <li>Talla samarreta (S-M-L-XL/XXL)</li>
             <li>Correu electrònic</li>
             </ul>
+            <a href="#llistat" role="button" class="btn btn-info" data-toggle="modal">Llistat d'inscripcions</a>
+            <!-- Modal -->
+            <div id="llistat" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="llistatLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 id="llistatLabel">Llistat d'inscripcions</h3>
+              </div>
+              <div class="modal-body">
+            <iframe width='100%' height='600' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0AmSOQMNqVc6AdGdmWDZldjJYWDlvRFVYU0xKSlVFQWc&single=true&gid=0&output=html&widget=true'></iframe>
+              </div>
+              <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Tanca</button>
+              </div>
+            </div>
           </p>
           <h2>Terminis</h2>
           <p>
