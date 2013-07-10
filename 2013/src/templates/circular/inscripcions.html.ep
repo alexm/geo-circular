@@ -11,24 +11,12 @@
       <div class="row">
 <%= include 'circular/calendari' %>
         <div class="span6" style="text-align: justify">
-          <div class="alert alert-error" style="text-align: center">
-            <h4 class="alert-heading">
-              A l'espera de poder realitzar les inscripcions a través del nou WEB de la FEEC (previst per mitjan de juliol), les obrim amb el procediment següent.
-            </h4>
-          </div>
           <h2>Per fer la inscripció</h2>
           <p>
-            Envieu un correu electrònic a l'adreça <a href="mailto:circular@grupexcursionistaoliana.org" title="correu de la circular">circular@grupexcursionistaoliana.org</a> amb les següents dades:
-            <ul>
-            <li>Nom i cognoms</li>
-            <li>DNI o passaport</li>
-            <li>Data de naixement</li>
-            <li>Federat o no</li>
-            <li>Entitat (pels federats)</li>
-            <li>Talla samarreta (S-M-L-XL/XXL)</li>
-            <li>Correu electrònic</li>
-            </ul>
-            <a href="#llistat" role="button" class="btn btn-info" data-toggle="modal">Llistat d'inscripcions</a>
+            Ja podeu fer la inscripció a la <a href="http://www.feec.cat/competicions/competicio.php?idcomp=296466" title="inscripcions de la circular a la web de la FEEC">web de la FEEC</a>.
+          </p>
+          <ul>
+            <li>Llistat de les <a href="#llistat" data-toggle="modal">inscripcions per correu</a>.</li>
             <!-- Modal -->
             <div id="llistat" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="llistatLabel" aria-hidden="true">
               <div class="modal-header">
@@ -42,25 +30,20 @@
                 <button class="btn" data-dismiss="modal" aria-hidden="true">Tanca</button>
               </div>
             </div>
-          </p>
-          <h2>Terminis</h2>
-          <p>
-            Del 18 de juny de 2013 al 31 d'agost de 2013 o en arribar a les 350 inscripcions.
-          </p>
-          <h2>Pagament</h2>
-          <p>
-            Feu el pagament durant 5 dies naturals després de la inscripció al número de compte <strong>2100-0671-39-0200079547</strong> i indiqueu el Grup Excursionista d'Oliana com a beneficiari.
-            <div class="alert alert" style="text-align: center">
-              <h4 class="alert-heading">
-                En realitzar l'ingrés poseu el nom de la persona que s'inscriu.
-              </h4>
+            <li>Llistat de les <a href="#llistat_feec" data-toggle="modal">inscripcions a la FEEC</a>.</li>
+            <!-- Modal -->
+            <div id="llistat_feec" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="llistatFeecLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 id="llistatFeecLabel">Llistat d'inscripcions a la FEEC</h3>
+              </div>
+              <div class="modal-body">
+            <iframe width='100%' height='600' frameborder='0' src='http://www.feec.cat/competicions/inscrits_competicio.php?idcomp=296466'></iframe>
+              </div>
+              <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Tanca</button>
+              </div>
             </div>
-          </p>
-          <h2>Quotes</h2>
-          <ul>
-          <li><strong>26 €</strong> &ndash; Federats amb llicència de la FEEC d’enguany i entitats adherides a la UIAA</li>
-          <li><strong>30 €</strong> &ndash; No federats (inclou assegurança vàlida durant l’activitat)</li>
-          <li><strong>20 €</strong> &ndash; Socis Grup Excursionista d'Oliana amb llicència federativa</li>
           </ul>
         </div>
 <%= include 'circular/logos' %>
